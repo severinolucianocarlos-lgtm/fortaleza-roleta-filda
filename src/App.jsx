@@ -203,9 +203,12 @@ function App() {
                 <img src={logo} alt="Fortaleza Seguros" />
               </motion.div>
               <div className="hero-copy">
-                <h1>ROleta DA SORTE</h1>
+                <h1>ROLETA DA SORTE</h1>
+                <p style={{ fontSize: '14px', opacity: 0.8, marginBottom: '12px', textAlign: 'center' }}>
+                  Teste sua sorte e ganhe prêmios incríveis!
+                </p>
               </div>
-              <PrimaryButton onClick={handleSpin}>GIRAR A ROLETA</PrimaryButton>
+              <PrimaryButton onClick={handleSpin}>🎡 GIRE E GANHE</PrimaryButton>
             </motion.section>
           )}
 

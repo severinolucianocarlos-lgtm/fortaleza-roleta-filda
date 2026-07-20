@@ -1,15 +1,14 @@
 const defaultPrizes = [
-  { id: 1, name: 'Caneta', probability: 12, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 2, name: 'Agenda', probability: 10, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 3, name: 'Garrafa', probability: 10, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 4, name: 'Mochila', probability: 8, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 5, name: 'Boné', probability: 8, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 6, name: 'T-shirt', probability: 8, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 7, name: 'Guarda-chuva', probability: 6, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 8, name: 'Vale Brinde', probability: 6, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 9, name: 'Chaveiro', probability: 6, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 10, name: 'Obrigado pela participação', probability: 20, active: true, awardedCount: 0, isNoPrize: false },
-  { id: 11, name: 'Não foi desta, tente novamente', probability: 6, active: true, awardedCount: 0, isNoPrize: true }
+  { id: 1, name: '✏️ Lápis', probability: 15, active: true, awardedCount: 0, isNoPrize: false },
+  { id: 2, name: '🖊️ Caneta', probability: 15, active: true, awardedCount: 0, isNoPrize: false },
+  { id: 3, name: '⚽ Bola', probability: 15, active: true, awardedCount: 0, isNoPrize: false },
+  { id: 4, name: '🔑 Porta-Chaves', probability: 10, active: true, awardedCount: 0, isNoPrize: false },
+  { id: 5, name: '⏳ Próxima Chance', probability: 10, active: true, awardedCount: 0, isNoPrize: true },
+  { id: 6, name: '❌ Não foi dessa', probability: 10, active: true, awardedCount: 0, isNoPrize: true },
+  { id: 7, name: '✏️ Lápis', probability: 10, active: true, awardedCount: 0, isNoPrize: false },
+  { id: 8, name: '🖊️ Caneta', probability: 10, active: true, awardedCount: 0, isNoPrize: false },
+  { id: 9, name: '⚽ Bola', probability: 10, active: true, awardedCount: 0, isNoPrize: false },
+  { id: 10, name: '❌ Não foi dessa', probability: 5, active: true, awardedCount: 0, isNoPrize: true }
 ];
 
 export function createDefaultPrizes() {

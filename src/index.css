@@ -121,13 +121,13 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 24px;
-  font-size: 0.82rem;
+  padding-top: 20px;
+  font-size: 0.73rem;
   color: white;
   transform: rotate(var(--segment-angle));
   transform-origin: center;
 }
-.wheel-segment span { display: block; width: 82px; text-align: center; font-weight: 700; line-height: 1.1; text-shadow: 0 2px 6px rgba(0,0,0,0.45); }
+.wheel-segment span { display: block; width: 65px; text-align: center; font-weight: 700; line-height: 1.2; text-shadow: 0 2px 6px rgba(0,0,0,0.45); word-break: break-word; overflow: hidden; max-height: 60px; }
 
 .wheel-pointer {
   position: absolute;
